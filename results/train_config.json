@@ -1,0 +1,38 @@
+{
+  "seed": 42,
+  "model_name": "bert-base-uncased",
+  "max_len": 64,
+  "batch_size": 32,
+  "epochs_custom": 8,
+  "epochs_bert": 3,
+  "lr_custom": 0.00015,
+  "lr_bert": 2e-05,
+  "weight_decay": 0.05,
+  "warmup_ratio": 0.05,
+  "grad_clip": 1.0,
+  "early_stopping_patience": 3,
+  "num_workers": 2,
+  "use_amp": true,
+  "mode": "full",
+  "kaggle_train_size": 60000,
+  "kaggle_val_size": 5000,
+  "kaggle_test_size": 5000,
+  "ablation_train_size": 60000,
+  "ablation_val_size": 5000,
+  "ablation_test_size": 5000,
+  "ablation_epochs": 4,
+  "trunc_stats_sample_size": 20000,
+  "calibration_bins": 15,
+  "run_temperature_scaling": true,
+  "save_prediction_frames": true,
+  "run_hans_eval": true,
+  "multi_seed_enabled": true,
+  "multi_seed_models": [
+    "compact"
+  ],
+  "multi_seed_values": [
+    42,
+    52,
+    62
+  ]
+}

@@ -1,0 +1,7 @@
+variant,pooling,pos_encoding,num_layers,d_model,num_heads,d_ff,best_epoch,params_millions,train_time_min,val_accuracy,val_macro_f1,val_ece,test_accuracy,test_macro_f1,test_ece,checkpoint
+pos_sinusoidal,cls,sinusoidal,4,256,4,512,4,9.99,2.62,0.61,0.6088,0.0438,0.613,0.6117,0.0497,outputs_nli/checkpoints/ablation_pos_sinusoidal_seed42.pt
+depth_l6,cls,learnable,6,256,4,512,4,11.06,3.48,0.608,0.6071,0.0387,0.6066,0.6052,0.0398,outputs_nli/checkpoints/ablation_depth_l6_seed42.pt
+pool_mean,mean,learnable,4,256,4,512,4,10.006,2.66,0.5982,0.597,0.0502,0.601,0.5996,0.0522,outputs_nli/checkpoints/ablation_pool_mean_seed42.pt
+pool_max,max,learnable,4,256,4,512,4,10.006,2.66,0.5896,0.5886,0.0458,0.5892,0.5875,0.0467,outputs_nli/checkpoints/ablation_pool_max_seed42.pt
+base_cls_learnable_l4,cls,learnable,4,256,4,512,4,10.006,2.68,0.5848,0.5839,0.0355,0.5798,0.5785,0.0439,outputs_nli/checkpoints/ablation_base_cls_learnable_l4_seed42.pt
+depth_l2,cls,learnable,2,256,4,512,4,8.952,1.9,0.5708,0.5686,0.0264,0.5782,0.5747,0.0383,outputs_nli/checkpoints/ablation_depth_l2_seed42.pt

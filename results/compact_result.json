@@ -1,0 +1,21 @@
+{
+  "model": "CompactTransformer",
+  "checkpoint": "outputs_nli/checkpoints/compact_base_seed42.pt",
+  "best_epoch": 8,
+  "train_time_sec": 2791.193208256,
+  "trainable_params": 10006019,
+  "val_accuracy": 0.8011583011583011,
+  "val_macro_f1": 0.8000986276110383,
+  "val_weighted_f1": 0.8005373101057898,
+  "val_ece": 0.03561692716532235,
+  "test_accuracy": 0.7928542345276873,
+  "test_macro_f1": 0.7919110178920188,
+  "test_weighted_f1": 0.7925784421050391,
+  "test_loss": 0.5128874838449279,
+  "test_nll": 0.5128874837928632,
+  "test_brier": 0.2909283337710357,
+  "test_ece": 0.04266930635448192,
+  "items_per_sec": 6030.995471902993,
+  "avg_batch_time_sec": 0.00530592340005569,
+  "p95_batch_time_sec": 0.00620286025000496
+}

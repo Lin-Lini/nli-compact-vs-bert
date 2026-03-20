@@ -1,0 +1,17 @@
+model,slice,group,n,accuracy,macro_f1,weighted_f1,mean_confidence
+CompactTransformer,overlap_bin,low,1566,0.7637,0.7498,0.7636,0.821
+CompactTransformer,overlap_bin,medium,4789,0.7849,0.7837,0.7852,0.8281
+CompactTransformer,overlap_bin,high,3469,0.817,0.7804,0.8152,0.8523
+BERT,overlap_bin,low,1566,0.8934,0.8822,0.8931,0.9548
+BERT,overlap_bin,medium,4789,0.9035,0.9011,0.9034,0.9504
+BERT,overlap_bin,high,3469,0.9187,0.9089,0.9188,0.9513
+CompactTransformer,has_negation,False,9573,0.7924,0.7915,0.7921,0.8351
+CompactTransformer,has_negation,True,251,0.8088,0.7458,0.8046,0.8513
+BERT,has_negation,False,9573,0.9067,0.9067,0.9066,0.9509
+BERT,has_negation,True,251,0.9283,0.904,0.9273,0.9714
+CompactTransformer,pair_len_bin,short,3387,0.7983,0.7901,0.7967,0.8379
+CompactTransformer,pair_len_bin,medium,3474,0.7873,0.7878,0.7873,0.8344
+CompactTransformer,pair_len_bin,long,2963,0.7931,0.7944,0.7931,0.8341
+BERT,pair_len_bin,short,3387,0.912,0.9085,0.9115,0.951
+BERT,pair_len_bin,medium,3474,0.9119,0.9118,0.9118,0.9511
+BERT,pair_len_bin,long,2963,0.8964,0.8979,0.8965,0.9523

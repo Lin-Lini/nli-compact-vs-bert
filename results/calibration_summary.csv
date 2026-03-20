@@ -1,0 +1,5 @@
+model,stage,nll,brier,ece
+CompactTransformer,raw,0.5129,0.2909,0.0427
+BERT,raw,0.2986,0.1476,0.0443
+CompactTransformer,temperature_scaled (T=1.067),0.5079,0.2891,0.0319
+BERT,temperature_scaled (T=1.123),0.2833,0.1453,0.0347

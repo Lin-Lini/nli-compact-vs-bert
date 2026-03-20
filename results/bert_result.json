@@ -1,0 +1,21 @@
+{
+  "model": "BERT",
+  "checkpoint": "outputs_nli/checkpoints/bert_base_seed42.pt",
+  "best_epoch": 3,
+  "train_time_sec": 5796.899422305999,
+  "trainable_params": 109484547,
+  "val_accuracy": 0.9114001219264377,
+  "val_macro_f1": 0.9112221579520129,
+  "val_weighted_f1": 0.9114163468889929,
+  "val_ece": 0.0412059113325759,
+  "test_accuracy": 0.9072679153094463,
+  "test_macro_f1": 0.9069936322854856,
+  "test_weighted_f1": 0.9071817847077067,
+  "test_loss": 0.29863239820221443,
+  "test_nll": 0.2986323973995953,
+  "test_brier": 0.14763910285338458,
+  "test_ece": 0.04427741191589585,
+  "items_per_sec": 328.39269398552375,
+  "avg_batch_time_sec": 0.09744431160033855,
+  "p95_batch_time_sec": 0.11412689624994525
+}

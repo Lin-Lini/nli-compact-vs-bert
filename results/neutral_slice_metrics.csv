@@ -1,0 +1,7 @@
+model,slice,group,n,accuracy,macro_f1,weighted_f1,mean_confidence
+CompactTransformer,overlap_bin,low,582,0.7062,0.2759,0.8278,0.7784
+CompactTransformer,overlap_bin,medium,1774,0.7599,0.2878,0.8635,0.7992
+CompactTransformer,overlap_bin,high,863,0.708,0.2763,0.829,0.7911
+BERT,overlap_bin,low,582,0.8505,0.3064,0.9192,0.9367
+BERT,overlap_bin,medium,1774,0.8766,0.3114,0.9342,0.9367
+BERT,overlap_bin,high,863,0.8598,0.3082,0.9246,0.936

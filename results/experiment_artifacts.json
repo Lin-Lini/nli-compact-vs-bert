@@ -1,0 +1,76 @@
+{
+  "train_config": {
+    "seed": 42,
+    "model_name": "bert-base-uncased",
+    "max_len": 64,
+    "batch_size": 32,
+    "epochs_custom": 8,
+    "epochs_bert": 3,
+    "lr_custom": 0.00015,
+    "lr_bert": 2e-05,
+    "weight_decay": 0.05,
+    "warmup_ratio": 0.05,
+    "grad_clip": 1.0,
+    "early_stopping_patience": 3,
+    "num_workers": 2,
+    "use_amp": true,
+    "mode": "full",
+    "kaggle_train_size": 60000,
+    "kaggle_val_size": 5000,
+    "kaggle_test_size": 5000,
+    "ablation_train_size": 60000,
+    "ablation_val_size": 5000,
+    "ablation_test_size": 5000,
+    "ablation_epochs": 4,
+    "trunc_stats_sample_size": 20000,
+    "calibration_bins": 15,
+    "run_temperature_scaling": true,
+    "save_prediction_frames": true,
+    "run_hans_eval": true,
+    "multi_seed_enabled": true,
+    "multi_seed_models": [
+      "compact"
+    ],
+    "multi_seed_values": [
+      42,
+      52,
+      62
+    ]
+  },
+  "compact_config": {
+    "vocab_size": 30522,
+    "max_len": 64,
+    "num_labels": 3,
+    "pad_token_id": 0,
+    "type_vocab_size": 2,
+    "d_model": 256,
+    "num_heads": 4,
+    "num_layers": 4,
+    "d_ff": 512,
+    "dropout": 0.1,
+    "pooling": "cls",
+    "pos_encoding": "learnable"
+  },
+  "environment_info": {
+    "python": "3.12.12 (main, Oct 10 2025, 08:52:57) [GCC 11.4.0]",
+    "torch": "2.9.0+cu126",
+    "transformers": "5.2.0",
+    "datasets": "4.0.0",
+    "device": "cuda"
+  },
+  "comparison_table_path": "outputs_nli/model_comparison.csv",
+  "relative_tradeoff_summary_path": "outputs_nli/relative_tradeoff_summary.csv",
+  "calibration_summary_path": "outputs_nli/calibration_summary.csv",
+  "slice_metrics_path": "outputs_nli/slice_metrics.csv",
+  "neutral_slice_metrics_path": "outputs_nli/neutral_slice_metrics.csv",
+  "ablation_table_path": "outputs_nli/ablation_results.csv",
+  "compact_result_path": "outputs_nli/compact_result.json",
+  "bert_result_path": "outputs_nli/bert_result.json",
+  "compact_predictions_path": "outputs_nli/compact_predictions.csv",
+  "bert_predictions_path": "outputs_nli/bert_predictions.csv",
+  "temperature_scaling": {
+    "compact_temperature": 1.066926121711731,
+    "bert_temperature": 1.1234256029129028
+  },
+  "multi_seed_results_path": "outputs_nli/multi_seed_results.csv"
+}

@@ -1,0 +1,5 @@
+comparison,value
+BERT / Compact size ratio,10.94
+Compact / BERT train time ratio,0.481
+Compact / BERT throughput ratio,18.365
+Macro-F1 gap (BERT - Compact),0.1151
