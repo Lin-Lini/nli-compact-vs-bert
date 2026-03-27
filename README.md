@@ -1,4 +1,4 @@
-# eeml-nli-compact-vs-bert
+# nli-compact-vs-bert
 
 Controlled empirical study of a compact encoder-only Transformer versus BERT on SNLI, with emphasis on efficiency, calibration, and diagnostically meaningful failure modes.
 
